@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'cambria';
+}
+/* Clases */
+.textoCentrado {
+    text-align: center;
+}
+.textoRojo {
+    color: rgb(255, 0, 242);
+}
+/* NAV */
+
+@media(min-width:480px){
+nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: grey;
+    border-radius: 10px 10px 100px 10px;
+    }
+}
+
+.logotipo {
+    width: 80px;
+    height: 70px;
+    margin: 5px 0px 0px 5px;
+}
+
+/* fin del NAV */
