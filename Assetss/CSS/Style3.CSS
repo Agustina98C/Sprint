@@ -27,19 +27,50 @@ a {
   align-items: center;
   justify-content: space-between;
 }
+.nav_logo,
+/*color letras menu*/
+.nav_link,
+.button{
+  color: #940B92;
+}
 .nav_logo {
   font-size: 30px;
 }
 .nav_item {
   column-gap: 25px;
 }
+
 .nav_link:hover {
   color:	#FFD820;
 }
+.button {
+  padding: 6px 24px;
+  border: 2px solid #fff;
+  background: transparent;
+  border-radius: 6px;
+  cursor: pointer;
+}
+.button:active {
+  transform: scale(0.98);
+}
+
 /*Home*/
 .inicio {
   position: relative;
   height: 100vh;
   width: 100%;
-  background-image: url("oig.jpeg");
+  background-image: url("/Assetss/IMG/OIG.jpeg");
+  background-size: cover;
+  background-position: center;
+}
+
+/*Form*/
+.form_container {
+  position: fixed;
+  max-width: 320px;
+  width: 100%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(1.2);
+  z-index: 101;
 }
